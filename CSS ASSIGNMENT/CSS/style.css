@@ -24,6 +24,7 @@ a{
     list-style:none ;
     font-size: larger;
     font-style:normal;
+    text-align: left;
 }
 ul li::before {
     content: "\2022";
@@ -32,5 +33,15 @@ ul li::before {
     display: inline-block; 
     width: 1em;
     margin-left: -1em;
+  }
+  .container{
+    
+        text-align: center;
+        width: 250px;
+        height: 350px;
+        border: 5px solid rgb(15, 3, 3);
+        margin: 50px auto;
+        padding: 15px;
+    
   }
 
