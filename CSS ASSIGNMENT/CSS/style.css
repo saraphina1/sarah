@@ -1,0 +1,36 @@
+
+a{
+    text-decoration: none;
+    color: rgb(10, 10, 9);
+}
+.box1{
+    
+    border: dashed;
+    padding: 25px ;
+    width:fit-content;
+    margin: auto;
+    margin-top: 8%;
+    line-height: 30px;
+    
+}
+.box1 h1{
+    text-align: center;
+}
+.box1 span a:hover{
+    color: rgb(236, 9, 9);
+}
+.list ul{
+    padding: 15px;
+    list-style:none ;
+    font-size: larger;
+    font-style:normal;
+}
+ul li::before {
+    content: "\2022";
+    color:rgb(31, 230, 31);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
