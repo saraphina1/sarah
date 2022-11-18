@@ -54,7 +54,7 @@ nav ul li a :hover{
     gap: 10px;
     box-sizing:border-box ;
      
-    background-color: white;
+    background-color:lightgrey;
 }
 
 
@@ -113,19 +113,24 @@ nav ul li a :hover{
     grid-column-end: 4;
     background-color: lightgrey;
 }
-@media only screen and (max-width:600px)
+@media only screen and (max-width:800px)
 {.grid-container{
     display: grid;
-    width: 100vw;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6  1fr);
-    padding: 10px;
+    width: 10%;
+    height: 70%;
+    grid-template-columns: 100px;
+    grid-template-rows: repeat(6  100px);
+
     gap: 10px;
     box-sizing: border-box;  
     background-color:white;
 }
 img{
-    width: 100%;
+
+    max-width: 100px;    
+    max-height: 50%;
+    box-shadow: black;
+    opacity: 0.4;
 }
 .item1{
     grid-row-start: 1;
@@ -165,11 +170,32 @@ img{
     }
 
 
+    h2{
+        font-size:16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+        text-align: center;}
 
+        p{
+            line-height:1rem;
+            font-size: px;
+            color:#fff;
+            font-display: block;
+        }
+        .content{
+            color: #000;
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5em;
+            display:flex;
+            align-content: center;
+            justify-content: center;
 
-
-
-
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
 
 
 
