@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+.transform{
+    background-color: brown;
+    height: 100px;
+    width: 150px;
+    padding: 20px;
+    
+}
+
+.transform-s{
+    background-color: rgb(44, 42, 165);
+    height: 100px;
+    width: 150px;
+    
+    
+    
+}
+.transform-s:hover{
+    transform: scale(3);
+}
+.transform-t{
+    background-color: rgb(7, 7, 7);
+    height: 100px;
+    width: 150px;
+    padding: 20px;
+    transition: height 3s;
+}
+.transform-t:hover{
+    height: 300px;
+    transition-delay: 2s;
+}
+.animation{
+    
+        background-color: rgb(240, 4, 150);
+        height: 150px;
+        width: 150px;
+        padding: 20px;
+        animation: practice 2s;
+        animation-iteration-count:3;
+}
+
+@keyframes practice{
+    0%{background-color: green;}
+    25%{background-color: yellowgreen;}
+    100%{background-color: yellow;
+}
