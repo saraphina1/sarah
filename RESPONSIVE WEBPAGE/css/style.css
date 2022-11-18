@@ -136,7 +136,7 @@ img{
     grid-row-start: 1;
     grid-row-end:1;
     background-repeat: no-repeat;
-    width: 100%;
+    max-width: 100%;
     
     
 }
@@ -173,13 +173,13 @@ img{
     h2{
         font-size:16px;
         font-family: Arial, Helvetica, sans-serif;
-        color: #fff;
+        color:grey;
         text-align: center;}
 
         p{
             line-height:1rem;
             font-size: px;
-            color:#fff;
+            color:lightgrey;
             font-display: block;
         }
         .content{
