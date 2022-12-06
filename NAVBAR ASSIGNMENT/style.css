@@ -5,7 +5,7 @@
 }
 
 .navbar{
-    background-image: linear-gradient(-90deg, #e60d1f, #f50b97 );
+    background-image: linear-gradient(-90deg, #5a507a, #621be6 );
 }
 
 .nav-link:hover{
@@ -28,13 +28,43 @@
         .firstcontent{
             font-weight: 900;
             font-size: 50px;
-            color:#fff;
+            color:rgb(5, 3, 31) ;
             
         }
         .content1{
-            color: #fff;
+            color:rgb(5, 3, 31);
             font-weight:700 ;
             font-size: 30px;
+        }
+        .findcourse{
+            width: 100%;
+            height: auto;
+            background-color: #0c0427;
+        }
+        .d-block{
+            opacity: 0.8;
+        }
+        .third{
+            width: 100%;
+            height: auto;
+        }
+        .study{
+            color: #a70b0b;
+            font-family: cursive;
+            font-weight: 900;
+            font-size: 50;
+            
+        }
+        .studycontent{
+            font-size: 30;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+        }
+        .footer{
+            font-size: 40;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+
         }
 @media only screen and (max-width: 800px)
 {
