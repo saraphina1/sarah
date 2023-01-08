@@ -1,17 +1,23 @@
-let name = 'bunmi';
-console.log(name);
-let person = {
-    name : 'bunmi',
-    age : 30
-};
-console.log(person);
 
-let selectedcolors = ['red','blue'];
-selectedcolors[2] = 'green';
-selectedcolors[3] = 'peach';
-console.log(selectedcolors);
 
-let car = {benz:3,toyota:7,landcruiser:2};
-console.log(car["toyota"]);
+let countEl = document.getElementById("count-el")
+console.log(countEl)
+let count=0
 
-console.log(typeof true);
+ function increment(){
+    count+=1
+    countEl.textContent = count
+
+ }
+ function save()
+{
+    let saveEl=document.getElementById("save-el")
+    let countstr=count + " - " 
+    saveEl.textContent+=countstr
+    console.log(count)
+    countEl.textContent=0
+    count=0
+
+    
+}
+save()

@@ -1,0 +1,47 @@
+h2{
+text-align: center;
+font-size: 50px;
+margin-top: 0;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: 700px;
+font-style: normal;
+}
+#btn{
+    text-align: center;
+}
+
+#increment-btn{
+    background-color: darkred;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+}
+#save-btn{
+    background-color:darkgreen;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+}
+p{
+    font-weight: 1000px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
